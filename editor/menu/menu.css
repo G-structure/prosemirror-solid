@@ -1,0 +1,25 @@
+.menubar {
+  max-width: 480px;
+  margin: auto;
+  padding: 0.5em;
+  margin: 1em auto;
+
+  background-color: #dedede;
+  border: 0.15em #cdcdcd solid;
+  border-radius: 0.25em;
+
+  display: flex;
+  gap: 0.25em;
+}
+.menubar button {
+  background-color: white;
+  border: black 1px solid;
+  border-radius: 0.25em;
+  width: 2.5em;
+  padding: 0.25em 0.5em;
+}
+.menubar button:hover {
+  background-color: #444;
+  color: white;
+  border: black 1px solid;
+}

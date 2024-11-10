@@ -1,0 +1,25 @@
+{
+  "name": "prosemirror-solid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "babel-preset-solid": "latest",
+    "prosemirror-commands": "1.2.2",
+    "prosemirror-history": "1.2.0",
+    "prosemirror-keymap": "1.1.5",
+    "prosemirror-model": "1.16.1",
+    "prosemirror-state": "1.3.4",
+    "prosemirror-view": "1.23.13",
+    "solid-js": "latest"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}

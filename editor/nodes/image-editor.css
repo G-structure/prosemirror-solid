@@ -1,0 +1,45 @@
+.imageNodeView {
+  border: #dedede 1px solid;
+  background-color: #efefef;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
+.imageNodeView.selected {
+  outline: red 2px outset;
+}
+
+.imageMenuBar {
+  display: flex;
+  gap: 0.25em;
+}
+
+.imageMenuBar button {
+  color: black;
+  background-color: white;
+  border: black 1px solid;
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+}
+.imageMenuBar button:hover {
+  background-color: #444;
+  color: white;
+  border: black 1px solid;
+}
+
+.imageMenuBar input {
+  width: 100%;
+  border: #aaa 1px solid;
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+}
+
+.imageNodeView .image img {
+  margin: auto;
+  display: block;
+  width: 100%;
+  border: #dedede 1px solid;
+  border-radius: 0.5em;
+}
